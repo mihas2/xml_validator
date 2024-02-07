@@ -1,7 +1,7 @@
 
 # XML Validator Library
 
-A simple XML validator for validate large XML files.
+A simple PHP XML validator for validate large XML files.
 
 ## Installation
 
