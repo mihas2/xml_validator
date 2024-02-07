@@ -1,0 +1,39 @@
+{
+  "name": "mihas2/xml_validator",
+  "version": "1.0",
+  "description": "A simple XML validator for large XML files",
+  "author": {
+    "name": "Mikhail S"
+  },
+  "type": "library",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.1",
+    "ext-libxml": ">=2.9.0"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "mihas2\\XmlValidator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "mihas2\\XmlValidator\\tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "@php -r 'vendor/bin/phpunit' --bootstrap tests/Bootstrap.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  }
+}
