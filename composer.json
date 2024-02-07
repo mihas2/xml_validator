@@ -13,6 +13,7 @@
     "php": ">=8.1",
     "ext-libxml": ">=2.9.0"
   },
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "mihas2\\XmlValidator\\": "src/"
